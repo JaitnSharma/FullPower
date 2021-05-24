@@ -1,4 +1,4 @@
-body {background: red;
+body {background: lavenderblush;
     font-family: Verdana;
   color: goldenrod;
 min-height:100vh;
@@ -6,9 +6,12 @@ min-height:100vh;
   }
 .fullpower {
       padding: 0 0 0 3%;
-      width=97%
+        width=93%;
       display: flex;
-      flex-flow: row nowrap;
+      flex-direction:row;
+      flex-wrap: wrap;
+      align-items: center;
+
 }
 
 .form {
