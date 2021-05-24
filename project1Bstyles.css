@@ -4,7 +4,13 @@ body {background: red;
 min-height:100vh;
 
   }
-.fullpower {padding: 0 0 0 3%;}
+.fullpower {
+      padding: 0 0 0 3%;
+      width=97%
+      display: flex;
+      flex-flow: row nowrap;
+}
+
 .form {
   float:left;
   width: 30%;
